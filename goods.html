@@ -17,6 +17,9 @@
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<!-- <link rel="stylesheet" href="css/swiper-bundle.min.css" /> -->
 	<link rel="stylesheet" href="css/style.css">
+
+	<script src="js/getGoods.js" defer></script>
+	<script src="js/search.js" defer></script>
 </head>
 <!-- class="show-goods" -->
 
@@ -28,6 +31,8 @@
 					<img width="128" src="img/logo.svg" alt="logo: Willberries" class="logo-image">
 				</a>
 			</div>
+			<!-- ./logo -->
+
 			<div class="col-lg-6 d-none d-lg-block">
 				<nav>
 					<ul class="navigation d-flex justify-content-around">
@@ -49,12 +54,13 @@
 						<li class="navigation-item">
 							<a href="#" class="navigation-link">All</a>
 						</li>
-
 					</ul>
 				</nav>
 			</div>
+			<!-- ./nav -->
+
 			<div class="col-lg-2 d-none d-lg-block">
-				<div class="form-control">
+				<div class="form-control search-block">
 					<input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username"
 						aria-describedby="button-addon2">
 					<button class="btn btn-outline-secondary" type="button" id="button-addon2">
@@ -62,6 +68,8 @@
 					</button>
 				</div>
 			</div>
+			<!-- ./search -->
+
 			<div class="col-lg-2 col-6 d-flex justify-content-end">
 				<button class="button button-cart">
 					<img class="button-icon" src="img/cart.svg" alt="icon: cart">
@@ -69,9 +77,12 @@
 					<span class="button-text cart-count"></span>
 				</button>
 			</div>
+			<!-- ./cart -->
+
 		</div>
 		<!-- /.row -->
 	</header>
+	<!-- ./header -->
 
 	<section class="long-goods d-block">
 		<div class="container">
@@ -81,6 +92,8 @@
 				</div>
 				<!-- /.col-12 -->
 			</div>
+			<!-- ./category -->
+
 			<div class="row long-goods-list">
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
@@ -95,9 +108,10 @@
 							<span class="button-price">$89</span>
 						</button>
 					</div>
-					<!-- /.goods-card -->
+					<!-- /.goods-card 1 -->
 				</div>
 				<!-- /.col-3 -->
+
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
 						<span class="label">New</span>
@@ -115,6 +129,7 @@
 					<!-- /.goods-card -->
 				</div>
 				<!-- /.col-3 -->
+
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
 						<span class="label">New</span>
@@ -131,6 +146,7 @@
 					<!-- /.goods-card -->
 				</div>
 				<!-- /.col-3 -->
+
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
 						<span class="label">New</span>
@@ -148,6 +164,7 @@
 					<!-- /.goods-card -->
 				</div>
 				<!-- /.col-3 -->
+
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
 						<span class="label">New</span>
@@ -164,6 +181,7 @@
 					<!-- /.goods-card -->
 				</div>
 				<!-- /.col-3 -->
+
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
 						<span class="label">New</span>
@@ -181,6 +199,7 @@
 					<!-- /.goods-card -->
 				</div>
 				<!-- /.col-3 -->
+
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
 						<span class="label">New</span>
@@ -197,6 +216,7 @@
 					<!-- /.goods-card -->
 				</div>
 				<!-- /.col-3 -->
+
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
 						<span class="label">New</span>
@@ -214,6 +234,7 @@
 					<!-- /.goods-card -->
 				</div>
 				<!-- /.col-3 -->
+
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
 						<span class="label">New</span>
@@ -230,6 +251,7 @@
 					<!-- /.goods-card -->
 				</div>
 				<!-- /.col-3 -->
+
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
 						<span class="label">New</span>
@@ -247,6 +269,7 @@
 					<!-- /.goods-card -->
 				</div>
 				<!-- /.col-3 -->
+
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
 						<span class="label">New</span>
@@ -263,6 +286,7 @@
 					<!-- /.goods-card -->
 				</div>
 				<!-- /.col-3 -->
+
 				<div class="col-lg-3 col-sm-6">
 					<div class="goods-card">
 						<span class="label">New</span>
@@ -281,9 +305,11 @@
 				</div>
 				<!-- /.col-3 -->
 			</div>
+			<!-- ./list cards -->
 		</div>
-
+		<!-- ./container -->
 	</section>
+	<!-- ./long-goods -->
 
 	<footer class="footer">
 		<div class="container">
@@ -343,6 +369,7 @@
 		</div>
 		<!-- /.container -->
 	</footer>
+	<!-- ./footer -->
 	
 	<div class="overlay" id="modal-cart">
 		<div class="modal">
@@ -388,6 +415,7 @@
 			</form>
 		</div>
 	</div>
+	<!-- ./modal -->
 </body>
 
 </html>
