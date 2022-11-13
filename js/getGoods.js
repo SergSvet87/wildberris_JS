@@ -47,7 +47,7 @@ const getGoods = () => {
   }
 
   links.forEach((item) => {
-    item.addEventListener('click', event => {
+    item.addEventListener('click', (event) => {
       event.preventDefault()
 
       const linkValue = item.textContent
